@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "brand": "Lovrella",
+    "market": "US",
+    "products": ["necklace", "mug", "apparel"],
+    "author": "Jan Tore Boe",
+    "version": "1.0"
+  },
+  "occasions": [
+    {
+      "id": "mothers-day",
+      "name": "Mother's Day",
+      "type": "seasonal",
+      "date": "Second Sunday in May",
+      "lead_time_weeks": 6,
+      "evergreen": false,
+      "priority": "high",
+      "url_slug": "mothers-day-gifts",
+      "primary_keyword": "personalized mothers day gifts",
+      "personas": [
+        { "giver": "husband", "recipient": "wife" },
+        { "giver": "daughter", "recipient": "mom" },
+        { "giver": "son", "recipient": "mom" },
+        { "giver": "family", "recipient": "grandma" }
+      ],
+      "emotional_angles": [
+        "feeling truly seen and appreciated",
+        "something she will keep forever",
+        "more than just a card"
+      ],
+      "product_fit": {
+        "necklace": "high",
+        "mug": "high",
+        "apparel": "medium"
+      },
+      "content_clusters": [
+        "gifts for wife on mothers day",
+        "first mothers day gift from husband",
+        "personalized gifts for mom",
+        "mothers day gifts for grandma",
+        "last minute mothers day gifts"
+      ]
+    },
+    {
+      "id": "fathers-day",
+      "name": "Father's Day",
+      "type": "seasonal",
+      "date": "Third Sunday in June",
+      "lead_time_weeks": 6,
+      "evergreen": false,
+      "priority": "high",
+      "url_slug": "fathers-day-gifts",
+      "primary_keyword": "personalized fathers day gifts",
+      "personas": [
+        { "giver": "wife", "recipient": "husband" },
+        { "giver": "daughter", "recipient": "dad" },
+        { "giver": "son", "recipient": "dad" },
+        { "giver": "family", "recipient": "grandpa" }
+      ],
+      "emotional_angles": [
+        "show dad he is more than just a provider",
+        "something he will actually use",
+        "a gift with his name on it"
+      ],
+      "product_fit": {
+        "necklace": "low",
+        "mug": "high",
+        "apparel": "high"
+      },
+      "content_clusters": [
+        "personalized gifts for dad",
+        "fathers day gifts from daughter",
+        "fathers day gifts from wife",
+        "funny fathers day gifts",
+        "meaningful fathers day gifts"
+      ]
+    },
+    {
+      "id": "valentines-day",
+      "name": "Valentine's Day",
+      "type": "seasonal",
+      "date": "February 14",
+      "lead_time_weeks": 5,
+      "evergreen": false,
+      "priority": "high",
+      "url_slug": "valentines-day-gifts",
+      "primary_keyword": "personalized valentines day gifts",
+      "personas": [
+        { "giver": "husband", "recipient": "wife" },
+        { "giver": "wife", "recipient": "husband" },
+        { "giver": "boyfriend", "recipient": "girlfriend" },
+        { "giver": "girlfriend", "recipient": "boyfriend" }
+      ],
+      "emotional_angles": [
+        "beyond flowers and chocolate",
+        "a gift that says I really know you",
+        "romantic and personal"
+      ],
+      "product_fit": {
+        "necklace": "high",
+        "mug": "high",
+        "apparel": "medium"
+      },
+      "content_clusters": [
+        "personalized valentines gifts for her",
+        "valentines gifts for him",
+        "romantic personalized gifts",
+        "valentines gifts for wife",
+        "valentines gifts under 50"
+      ]
+    },
+    {
+      "id": "christmas",
+      "name": "Christmas",
+      "type": "seasonal",
+      "date": "December 25",
+      "lead_time_weeks": 8,
+      "evergreen": false,
+      "priority": "high",
+      "url_slug": "personalized-christmas-gifts",
+      "primary_keyword": "personalized christmas gifts",
+      "personas": [
+        { "giver": "anyone", "recipient": "mom" },
+        { "giver": "anyone", "recipient": "dad" },
+        { "giver": "anyone", "recipient": "partner" },
+        { "giver": "anyone", "recipient": "friend" },
+        { "giver": "anyone", "recipient": "grandparent" }
+      ],
+      "emotional_angles": [
+        "a gift they did not expect",
+        "personal not generic",
+        "something that lasts beyond the season"
+      ],
+      "product_fit": {
+        "necklace": "high",
+        "mug": "high",
+        "apparel": "high"
+      },
+      "content_clusters": [
+        "personalized christmas gifts for mom",
+        "personalized christmas gifts for her",
+        "unique christmas gifts for couples",
+        "christmas gifts for grandma",
+        "last minute personalized christmas gifts"
+      ]
+    },
+    {
+      "id": "birthday",
+      "name": "Birthday",
+      "type": "evergreen",
+      "date": "year-round",
+      "lead_time_weeks": 2,
+      "evergreen": true,
+      "priority": "high",
+      "url_slug": "personalized-birthday-gifts",
+      "primary_keyword": "personalized birthday gifts",
+      "personas": [
+        { "giver": "anyone", "recipient": "mom" },
+        { "giver": "anyone", "recipient": "best friend" },
+        { "giver": "anyone", "recipient": "sister" },
+        { "giver": "anyone", "recipient": "wife" },
+        { "giver": "anyone", "recipient": "daughter" }
+      ],
+      "emotional_angles": [
+        "a gift that shows you thought about it",
+        "something with their name on it",
+        "not another gift card"
+      ],
+      "product_fit": {
+        "necklace": "high",
+        "mug": "high",
+        "apparel": "high"
+      },
+      "content_clusters": [
+        "personalized birthday gifts for her",
+        "birthday gifts for best friend",
+        "birthday gifts for mom",
+        "30th birthday gift ideas",
+        "unique birthday gifts for women"
+      ]
+    },
+    {
+      "id": "wedding",
+      "name": "Wedding",
+      "type": "evergreen",
+      "date": "year-round",
+      "lead_time_weeks": 3,
+      "evergreen": true,
+      "priority": "high",
+      "url_slug": "personalized-wedding-gifts",
+      "primary_keyword": "personalized wedding gifts",
+      "personas": [
+        { "giver": "guest", "recipient": "couple" },
+        { "giver": "couple", "recipient": "bridal party" },
+        { "giver": "partner", "recipient": "partner" }
+      ],
+      "emotional_angles": [
+        "a gift they will display in their home",
+        "something that marks the day",
+        "personal not from a registry"
+      ],
+      "product_fit": {
+        "necklace": "high",
+        "mug": "medium",
+        "apparel": "medium"
+      },
+      "content_clusters": [
+        "personalized wedding gifts for couple",
+        "unique wedding gift ideas",
+        "wedding gifts not on registry",
+        "personalized bridal party gifts",
+        "wedding gifts for best friend"
+      ]
+    },
+    {
+      "id": "anniversary",
+      "name": "Anniversary",
+      "type": "evergreen",
+      "date": "year-round",
+      "lead_time_weeks": 2,
+      "evergreen": true,
+      "priority": "medium",
+      "url_slug": "personalized-anniversary-gifts",
+      "primary_keyword": "personalized anniversary gifts",
+      "personas": [
+        { "giver": "husband", "recipient": "wife" },
+        { "giver": "wife", "recipient": "husband" },
+        { "giver": "partner", "recipient": "partner" }
+      ],
+      "emotional_angles": [
+        "celebrating how far you have come",
+        "a gift as unique as your relationship",
+        "something with your date on it"
+      ],
+      "product_fit": {
+        "necklace": "high",
+        "mug": "medium",
+        "apparel": "low"
+      },
+      "content_clusters": [
+        "personalized anniversary gifts for her",
+        "first anniversary gift ideas",
+        "anniversary gifts for wife",
+        "romantic anniversary gifts",
+        "anniversary gifts by year"
+      ]
+    },
+    {
+      "id": "graduation",
+      "name": "Graduation",
+      "type": "seasonal",
+      "date": "May-June",
+      "lead_time_weeks": 4,
+      "evergreen": false,
+      "priority": "medium",
+      "url_slug": "personalized-graduation-gifts",
+      "primary_keyword": "personalized graduation gifts",
+      "personas": [
+        { "giver": "parent", "recipient": "daughter" },
+        { "giver": "parent", "recipient": "son" },
+        { "giver": "friend", "recipient": "friend" }
+      ],
+      "emotional_angles": [
+        "marking a milestone that took years",
+        "something to carry into the next chapter",
+        "a gift that says we are proud of you"
+      ],
+      "product_fit": {
+        "necklace": "high",
+        "mug": "high",
+        "apparel": "high"
+      },
+      "content_clusters": [
+        "personalized graduation gifts for her",
+        "graduation gifts for daughter",
+        "high school graduation gift ideas",
+        "college graduation gifts",
+        "meaningful graduation gifts"
+      ]
+    },
+    {
+      "id": "new-baby",
+      "name": "New Baby",
+      "type": "evergreen",
+      "date": "year-round",
+      "lead_time_weeks": 2,
+      "evergreen": true,
+      "priority": "medium",
+      "url_slug": "personalized-new-baby-gifts",
+      "primary_keyword": "personalized new baby gifts",
+      "personas": [
+        { "giver": "friend", "recipient": "new mom" },
+        { "giver": "grandparent", "recipient": "new parents" },
+        { "giver": "family", "recipient": "new mom" }
+      ],
+      "emotional_angles": [
+        "welcoming a new life into the world",
+        "a keepsake for the new mom",
+        "something with the baby's name on it"
+      ],
+      "product_fit": {
+        "necklace": "high",
+        "mug": "high",
+        "apparel": "medium"
+      },
+      "content_clusters": [
+        "personalized new baby gifts for mom",
+        "new mom gift ideas",
+        "baby shower gift ideas",
+        "gifts for first time moms",
+        "personalized baby keepsakes"
+      ]
+    },
+    {
+      "id": "retirement",
+      "name": "Retirement",
+      "type": "evergreen",
+      "date": "year-round",
+      "lead_time_weeks": 2,
+      "evergreen": true,
+      "priority": "low",
+      "url_slug": "personalized-retirement-gifts",
+      "primary_keyword": "personalized retirement gifts",
+      "personas": [
+        { "giver": "colleague", "recipient": "coworker" },
+        { "giver": "child", "recipient": "parent" },
+        { "giver": "friend", "recipient": "friend" }
+      ],
+      "emotional_angles": [
+        "celebrating decades of hard work",
+        "the beginning of the best chapter",
+        "a gift that honors a career"
+      ],
+      "product_fit": {
+        "necklace": "medium",
+        "mug": "high",
+        "apparel": "medium"
+      },
+      "content_clusters": [
+        "personalized retirement gifts for women",
+        "retirement gifts for coworker",
+        "funny retirement gifts",
+        "unique retirement gift ideas",
+        "retirement gifts for teacher"
+      ]
+    }
+  ]
+}
